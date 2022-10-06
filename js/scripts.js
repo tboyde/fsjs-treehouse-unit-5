@@ -98,7 +98,7 @@ function createModalWindow(employeeInfo){
     }) 
 )}
 
-//Card event listner for opening matching modal 
+//Card event listener for opening matching modal 
 const modalOpens = () =>{
 document.querySelectorAll('.card').forEach(card => {
     card.addEventListener('click', (e) => {
